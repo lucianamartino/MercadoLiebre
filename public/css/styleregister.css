@@ -1,0 +1,398 @@
+/* TODO */
+
+*{
+    font-family: 'Roboto';
+    margin: 0;
+}
+/*  */
+
+/* HEADER */
+
+header{
+    background-color: #EAC926;
+    height: 105px;
+    position: relative;
+}
+.logo{
+    width: fit-content;
+    display: inline;
+    height: fit-content;
+}
+.logo img{
+    width: 200px;
+    height: 50px;
+}
+
+.texto{
+    font-size: 12px;
+}
+
+div.container-header{
+    display: flex;
+    
+}
+form.example{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+form.example input[type=text] {
+    padding: 5px;
+    border: 1px solid white; 
+    background: white;
+    width:600px;
+    border-radius: 4px;
+    border-right: 0ch;
+}
+
+form.example a .lupa{
+    border: 1px solid white; 
+    position: absolute;
+    margin-left: -7px;
+    width: 30px;
+    padding: 5px;
+    background:white;
+    color: #666;
+    height: 16px;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0%;
+    border-left: solid 1px #ebebeb;
+}
+
+div.cuotas{
+    display: flex;
+    top: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+/* ICONO MANO */
+
+.mano{
+    color: black;
+    border: none;
+}
+
+
+/* FIN HEADER */
+
+/* MENU */
+
+.izquierda{
+    display: flex;
+    justify-content: space-between;
+    float:left;
+    align-content: center;
+    width: 25%;
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.izquierda li{
+    list-style: none; 
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+.derecha{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    width: 25%;
+    right: 20px;
+    bottom: 20px;
+}
+.derecha li{
+    list-style: none;
+}
+
+.derecha i{
+    color: black;
+    border: none;
+} 
+
+/* FIN MENU */
+
+/* MENU HAMBURGUESA */
+
+.burger-menu{
+    background-color: #1259c3;
+    color: white;
+    margin-left: 50%;
+    padding: 5px 7px;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+/* FIN MENU HAMBURGUESA */
+
+main{
+    height: 1000px;
+    background-color: #ebebeb;
+    /* margin-top: -10px; */
+}
+
+/* NOMBRE USUARIO MAIL */
+div.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.registro{
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FIN NOMBRE USUARIO MAIL */
+/* FECHA NACIMIENTO */
+div.container-nacimiento{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.f-nacimiento{
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FIN FECHA NACIMIENTO */
+/* DOMICILIO */
+
+div.container-domicilio{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.domicilio{
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FIN DOMICILIO */
+/* PERFIL DE USUARIO */
+
+div.container-profile{
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    align-items: center;
+    margin-left: 25%;
+    
+}
+div.container-profile p{
+    padding: 5px 0px;
+}
+div.profile{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.profile label{
+    color: black;
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 0;
+    display: flex;
+    
+}
+
+input#buy, input#sell{
+   
+    padding:0;
+    margin-top: 8px;
+    height:10px;
+    width: 10px;
+}
+
+/* FIN PERFIL DE USUARIO */
+
+/* INTERESES */
+
+div.container-interests{
+    width: 20%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+div.intereses{
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  
+}
+
+.intereses label{
+    color: black;
+    margin-left: 10px;
+}
+.checkbox{
+    background-color: #ebebeb;
+    
+    
+}
+div.checkbox input{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* FIN INTERESES */
+
+/* FOTO USUARIO */
+
+div.container-fotousuario{
+    background-color: #ebebeb;
+    width: 40%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.foto-usuario{
+    margin-left: 20px;
+}
+.fotousuario{
+    margin-top: 20px;
+}
+
+/* FIN FOTO USUARIO */
+
+/* CONTRASEÑA */
+
+div.container-contraseña{
+    background-color: #ebebeb;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contraseña{
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FIN CONTRASEÑA */
+
+/* DIV BOTONES */
+
+div.container-botones{
+    background-color: #ebebeb;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* FIN DIV BOTONES */
+
+/* BOTON ENVIAR */
+
+.boton-enviar{
+    background-color: #1259c3;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+/* FIN BOTON ENVIAR */
+
+/* BOTON BORRAR */
+
+.boton-borrar{
+    background-color: red;
+    margin-top: 30px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* FIN BOTON BORRAR */
+
+/* FOOTER */
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 155px;
+    background-color: white;
+}
+.footer {
+    background-color: white;
+    padding: 15px;
+    box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+}
+ 
+.icono{
+    color: #1259c3;
+    width: 2em;
+    height: 2em;
+}
+.icono:hover{
+    color: #0022AA;
+}
+.container-icono{
+    
+    margin-left: 45%;
+    margin-top: 25px;
+   
+}
+ 
+h6{
+    font-size: 12px;
+    text-align: center;
+    color: #666;;
+    margin-top: 2px;
+}
+
+.textofooter{
+    font-size: 12px;
+    text-align: center;
+    width: 350px; 
+    color: #666;
+    margin-top: 2px; 
+}
+
+.ultimofooter{
+    margin-left: 0;
+    
+}  
+
+/* FIN FOOTER */
